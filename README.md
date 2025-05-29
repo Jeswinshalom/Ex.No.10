@@ -1,5 +1,6 @@
-# Content Creation Using Prompt Patterns with AI (ChatGPT)
-
+# Ex.No.10 Content Creation Using Prompt Patterns with AI (ChatGPT)
+**Name:** Jeswin Shalom S  
+**Reg.No.:** 212223060106  
 ## Objective
 Demonstrate how different prompting techniques—such as query decomposition, decision-making, semantic filtering, and more—can be applied to generate high-quality content like reports, articles, case studies, and creative works (e.g., comic books) using AI models like ChatGPT.
 
