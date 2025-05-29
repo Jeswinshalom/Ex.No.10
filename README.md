@@ -1,66 +1,132 @@
-# Ex.No.10
-Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
+# Content Creation Using Prompt Patterns with AI (ChatGPT)
 
-## Date:
-## Reg. No.
+## Objective
+Demonstrate how different prompting techniques—such as query decomposition, decision-making, semantic filtering, and more—can be applied to generate high-quality content like reports, articles, case studies, and creative works (e.g., comic books) using AI models like ChatGPT.
 
-## Aim:
-To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
+>  Goal: Showcase how prompt structure directly affects the **quality**, **coherence**, and **depth** of AI-generated content.
 
-## Procedure:
-1.	Introduction to Prompt Patterns: Begin by understanding the following prompt patterns:
-○	Query Decomposition: Breaking down complex queries into smaller, actionable parts.
-○	Decision Making: Asking the model to choose between options or directions.
-○	Answer Engineering: Refining outputs by giving detailed instructions on how to structure or format the answer.
-○	Fact Check List: Ensuring the content is factually accurate, especially for reports or case studies.
-○	Tail Generation: Extending the content logically to create depth in storytelling or analysis.
-○	Menu Actions: Presenting multiple action choices and guiding the AI to select one.
-○	Semantic Filter: Applying filters to control the tone, style, and accuracy of the content.
-2.	Choosing the Content Type: Decide on the type of content you want to create. This could be:
-○	Reports (e.g., industry analysis, sustainability reports, etc.)
-○	Case Studies (e.g., business solutions, technological innovations)
-○	Articles (e.g., opinion pieces, educational articles)
-○	Creative Content (e.g., comic book story, short stories, video scripts)
-3.	For example, you could choose a business report on market trends, a case study on a successful startup, or even a story-based prompt like creating a fictional world for a comic.
-4.	Creating the Prompts:
-○	Start with simple prompts to generate initial content.
-○	Gradually refine the prompts, moving toward more complex techniques like decision-making (asking the model to pick one of several options), tail generation (extending the narrative), and semantic filtering (adjusting style or tone).
-5.	Generating and Refining Outputs: Use the model to generate initial drafts, and then refine the outputs using iterative adjustments:
-○	For a report, prompt the model with basic data, then ask for a deeper analysis and insights.
-○	For creative content, refine the initial story idea with specific details on characters, settings, or actions.
-6.	Review and Evaluation: After generating content, evaluate the outputs for:
-○	Coherence: Is the generated content logical and structured?
-○	Creativity/Originality: Is the content engaging and fresh?
-○	Accuracy: Is the content factually accurate (for reports and case studies)?
-○	Tone and Style: Does the content match the intended tone (formal, creative, educational)?
-________________________________________
-Test Case Scenarios for Content Generation: (USE ANY 2)
-content generation scenarios:
-1.	Business Report on Market Trends
-2.	Case Study on Business Success
-3.	Article on Climate Change
-4.	Creative Writing - Sci-Fi Short Story
-5.	Educational Report on Renewable Energy
-6.	Product Launch Announcement
-7.	Travel Blog Post
-8.	Research Paper on Artificial Intelligence
-9.	Interview Transcript for Documentary
-10.	Sustainability Practices in Fashion
-11.	How to Build an E-commerce Website
-12.	Social Issue Awareness Campaign
-13.	Artificial Intelligence Impact on Healthcare
-## Instructions:
-1.	Select a Topic: Choose a topic (e.g., market trends, climate change, sci-fi story) that interests you.
-2.	Use Basic Prompts: Start by crafting simple, general prompts to generate initial content.
-3.	Refine Your Prompts: Gradually introduce more complexity by adding details, refining the structure, and using different prompt techniques like decision making or semantic filtering.
-4.	Evaluate the Output: Review the generated content for clarity, creativity, and accuracy.
-5.	Iterate for Improvement: Based on the feedback, refine the prompts and regenerate the content as needed.
+---
 
-## Deliverables:
-1.	First Draft: A basic draft of the report, case study, article, or story generated using simple prompts.
-2.	Refined Content: A more detailed and structured output, achieved by applying more advanced prompt techniques.
-3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
-4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
+##  Prompting Techniques Overview
 
-## Conclusion:
-By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
+| Technique             | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| Query Decomposition   | Break a complex prompt into smaller sub-questions for clarity and detail.   |
+| Decision-Making       | Let the model weigh options and justify decisions to simulate analysis.     |
+| Semantic Filtering    | Add constraints (keywords, tone, audience) to steer the content.            |
+| Role Prompting        | Assign the model a persona to match tone and style for specific audiences.  |
+| Chain-of-Thought (CoT)| Guide the model to reason step-by-step before generating full output.       |
+| Iterative Refinement  | Revise and improve content through successive prompts and edits.            |
+
+---
+
+## Example Use Case: *Smart Irrigation System (Case Study)*
+
+### 1. 🔹 Basic Prompt
+> **Prompt:**  
+Write a case study about a smart irrigation system using IoT.
+
+**Result:**  
+Flat structure, general information, lacks specific detail.
+
+---
+
+### 2.  Query Decomposition
+> **Sub-prompts:**
+- What are traditional irrigation challenges?
+- How does a smart irrigation system work?
+- What technologies (sensors, cloud, Arduino) are used?
+- Describe a real-life farm implementation.
+- What were the results and benefits?
+
+**Result:**  
+Structured and detailed content with clearer sections.
+
+---
+
+### 3.  Semantic Filtering
+> **Prompt:**  
+Write a technical case study for agricultural engineers. Use terms like *soil moisture sensor*, *automated control*, and *cloud analytics*. Keep the tone formal and informative.
+
+**Result:**  
+Precise, jargon-aware, domain-relevant content.
+
+---
+
+### 4.  Role Prompting
+> **Prompt:**  
+You are a journalist for *AgriTech Weekly*. Write a feature on a smart irrigation system using IoT, including quotes from farmers and experts.
+
+**Result:**  
+Narrative tone, includes anecdotal evidence and voice.
+
+---
+
+### 5. ⚖️ Decision-Making
+> **Prompt:**  
+Compare sensor-based and weather-based smart irrigation systems. Choose the better approach and justify your decision in a case study format.
+
+**Result:**  
+Analytical content with evaluation and recommendation.
+
+---
+
+### 6.  Chain-of-Thought (CoT) Prompting
+> **Prompt:**  
+List the components of a smart irrigation system first. Then describe how they work together. Conclude with their impact on water usage and crop yield.
+
+**Result:**  
+Stepwise reasoning with structured, logical flow.
+
+---
+
+### 7. 🛠 Iterative Refinement
+> **Steps:**
+1. Generate a rough draft.  
+2. Refine technical explanation of components.  
+3. Add real-world stats from India.  
+4. Improve tone and formatting for publication.
+
+**Result:**  
+Highly polished, deeply informative final product.
+
+---
+
+##  Bonus: Creative Content Use Case
+
+### Prompt:
+Create a comic book storyline where kids time-travel to learn about renewable energy. Use simple language, fun characters, and include concepts like solar, wind, and geothermal power.
+
+**Techniques Applied:**
+-  Role Prompting (targeting kids)
+-  Semantic Filtering (specific energy concepts)
+-  Chain-of-Thought (scene-by-scene logic)
+
+---
+
+##  Experimental Setup (For Prompt Evaluation)
+
+| Step | Task                                | Prompt Style          |
+|------|-------------------------------------|------------------------|
+| 1    | Generate basic case study           | Simple Prompt          |
+| 2    | Add structure via sub-questions     | Query Decomposition    |
+| 3    | Filter with audience + keywords     | Semantic Filtering     |
+| 4    | Add voice/tone by assigning a role  | Role Prompting         |
+| 5    | Guide step-by-step thinking         | Chain-of-Thought       |
+| 6    | Improve language and logic          | Iterative Refinement   |
+| 7    | Compare all outputs                 | Evaluation             |
+
+---
+
+##  Evaluation Summary of Prompting Techniques
+
+| Technique            | Strength                                         |
+|----------------------|--------------------------------------------------|
+| Query Decomposition  | Improves structure and depth                     |
+| Semantic Filtering   | Ensures domain-relevance and accuracy            |
+| Role Prompting       | Adjusts tone for audience                        |
+| Decision-Making      | Adds analytical depth                            |
+| Chain-of-Thought     | Enhances logical progression                     |
+| Iterative Refinement | Polishes and professionalizes content            |
+
+---
